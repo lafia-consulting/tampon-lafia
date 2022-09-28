@@ -1,0 +1,57 @@
+{
+  "name": "calculateur-impot",
+  "version": "1.0.0",
+  "description": "Formulaire permettant de calculer l&#39;impôt que l&#39;on va payer pour l&#39;année courante",
+  "author": "Abdoul Rahim",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "start": "nuxt start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/gtm": "^2.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "@tailwindcss/forms": "^0.3.4",
+    "busboy": "^1.6.0",
+    "dom-to-image": "^2.6.0",
+    "dotenv": "^16.0.1",
+    "file-saver": "^2.0.5",
+    "nodemailer": "^6.7.8",
+    "nuxt": "^2.0.0",
+    "remove": "^0.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@nuxt/test-utils": "^0.2.2",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "autoprefixer": "^10.4.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "jsdom-global": "^3.0.2",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "vue-jest",
+      ".*\\.(js)$": "babel-jest"
+    }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

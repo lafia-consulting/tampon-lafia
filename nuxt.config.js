@@ -69,13 +69,4 @@ export default {
     extend (config, ctx) {
     }
   },
- /*  gtm: {
-    enabled: true,
-    id: 'GTM-K3ZT8GD'
-  },
-  publicRuntimeConfig: {
-    gtm: {
-      id: process.env.GOOGLE_TAG_MANAGER_ID
-    }
-  }, */
 }

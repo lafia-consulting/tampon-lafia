@@ -1,7 +1,7 @@
 
 export default {
-  ssr: true,
-  target: 'static',
+  ssr: false,
+  target: 'server',
 
   /*
   ** Headers of the page

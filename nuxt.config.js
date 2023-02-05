@@ -1,11 +1,12 @@
 
 export default {
-  mode: 'universal',
+  ssr: true,
   target: 'static',
+
   /*
   ** Headers of the page
   */
- 
+
   head: {
     title: process.env.npm_package_name || '',
     meta: [

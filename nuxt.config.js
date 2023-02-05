@@ -1,9 +1,11 @@
 
 export default {
   mode: 'universal',
+  target: 'static',
   /*
   ** Headers of the page
   */
+ 
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -46,7 +48,7 @@ export default {
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     // Doc: https://github.com/nuxt-community/gtm-module
-    '@nuxtjs/gtm',
+    // '@nuxtjs/gtm',
     // https://medium.com/codex/sending-emails-with-nuxt-js-the-easy-way-91a65963bb4
   ],
   /*
@@ -66,7 +68,7 @@ export default {
     extend (config, ctx) {
     }
   },
-  gtm: {
+ /*  gtm: {
     enabled: true,
     id: 'GTM-K3ZT8GD'
   },
@@ -74,5 +76,5 @@ export default {
     gtm: {
       id: process.env.GOOGLE_TAG_MANAGER_ID
     }
-  },
+  }, */
 }

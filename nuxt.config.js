@@ -32,6 +32,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    // https://vercel.com/docs/concepts/analytics/audiences/quickstart
+    { src: '~/plugins/vercel.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules

@@ -164,3 +164,5 @@ Ensuite, nous passons par du serverless du côté de Vercel pour pouvoir utilise
 
 #### Gérer les messages flash
 [VueJS Flash message](https://laravel-news.com/building-a-flash-message-component-with-vue-js-and-tailwind-css)
+
+https://www.marcusoft.net/2015/03/packagejson-and-engines-and-enginestrict.html

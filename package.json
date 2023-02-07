@@ -52,5 +52,8 @@
     "presets": [
       "@babel/preset-env"
     ]
+  },
+  "engines": {
+    "node" : ">=12 <16"
   }
 }

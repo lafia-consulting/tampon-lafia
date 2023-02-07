@@ -137,6 +137,7 @@ export default {
 
 	watch: {
 		allowedDownloaded: function (newValue, oldValue) {
+			console.log('waatch allowedDownloaded');
 			console.warn(newValue, oldValue);
 		}
 	},

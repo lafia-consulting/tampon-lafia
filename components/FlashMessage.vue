@@ -20,7 +20,7 @@
                         <div class="max-h-screen flex items-center justify-center bg-gray-50 overflow-y-auto px-2 py-12">
                             <div class="max-w-md w-full">
                                 <div class="flex items-center justify-center">
-                                    <div class="animate-bounce flex items-center justify-center w-16 h-16 rounded-full border border-green-400">
+                                    <div class="flex items-center justify-center w-16 h-16 rounded-full border border-green-400">
                                         <svg class="w-12 h-12 text-green-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                                         </svg>
@@ -33,7 +33,7 @@
                                 </div>
 
                                 <div class="flex justify-end mt-6">
-                                    <button type="button" @click.prevent="" class="py-2 px-8 rounded-md shadow-sm text-sm font-medium text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:outline-none focus:ring-2 focus:ring-offset-2">
+                                    <button type="button" @click.prevent="close" class="py-2 px-8 rounded-md shadow-sm text-sm font-medium text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:outline-none focus:ring-2 focus:ring-offset-2">
                                         OK
                                     </button>
                                 </div>
